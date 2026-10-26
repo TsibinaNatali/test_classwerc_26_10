@@ -1,4 +1,99 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+}
+:root {
+  --bg-color: #030202;
+  --text-color: #fff;
+  --accent-color: #149648;
+  --border-color: #151716;
+  --container-width: 1200px;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+.container {
+  margin: o auto;
+  padding: 0 20px;
+}
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+  color: var(--text-color);
+}
+.menu ul {
+  display: flex;
+  list-style: none;
+  gap: 30px;
+}
+.menu-ap a {
+  text-decoration: none;
+  color: #cccccc;
+}
+.main {
+  padding: 60px 0;
+}
+.main-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 40px;
+  margin-left: 80px;
+  padding: 60px;
+}
+.block h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+.block p {
+  font-size: 20px;
+  color: var(--text-color);
+  margin-bottom: 25px;
+}
+.btn {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+button {
+  padding: 12px 28px;
+  font-size: 20px;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.btn_grin {
+  background-color: var(--accent-color);
+  color: var(--text-color);
+  padding: 10px;
+}
+.btn_2 {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+img {
+  width: 500px;
+  height: 500px;
+  border-radius: 250px;
+  border: 4px colid #f1e5e5;
+}
+.block_2 {
+  margin-bottom: 80px;
+  max-width: 800px;
+}
+.block_2 h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
 }
